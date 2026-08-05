@@ -1,10 +1,19 @@
 # Contributing Software
 
+AuScope welcomes software contributions to this GitHub Organisation. The intention of this organisation is a virtual space for selected parts of AuScope's digital infrastructure that is developed, maintained and used by the wider community. 
+Naturally this covers a broad range of software domains, as wide as AuScope's scientific research disciplines. Due to this complexity we propose all contributions to this space follow Guidelines to maximise software finability, (re)usability and impact.
+These Guidelines are made in coordination with international best-practice and follow resources such as.
+TODO: <link><link>
+
+With the coming age of AI we have also forms some thought provoking questions for osftware contributors to consider when adding software to this organisation.
+
+Below is a basic *Checklist* of software repository features we recommended for each submission. The *Checklist* has mandatory features and optional features that are expected for the community to follow.
+
+We ask that software submitted to this organisation adopt minimum best practices that are outlines below. These best practices raise the impact of the software and ensure appropriate credit is given to the creators flowing modern research software development methods as defined in CODE, CARE, FAIR4RS.
+
 AuScope welcomes contributions of modeling codes in geophysics that meet our [software best practices](https://www.auscope.org.au/software/software-bp). Software best practices aid your project in becoming discoverable and reusable. Best practices help you increase the impact of your work and get appropriate credit. By sharing your software, you make science more reproducible, and contribute to a growing software ecosystem. Additionally, following best practices allows you to direct more effort towards feature rich code while increasing your userbase. AuScope provides support and resources for projects that have been accepted as AuScope software.
 
 The Checklist below, is meant as a guide to prepare your software for AuScope review.
-
-A pdf version of this [contribution checklist](ContributingChecklist.pdf) is also contained in this repo for download.
 
 ---
 # Checklist
