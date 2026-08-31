@@ -3,7 +3,15 @@
 </p>
 
 
-# AuScope Software Best Practices Guidelines
+# AuScope Software "Best Practices" Guidelines
+
+This GitHub repository is a resource for _Best Practice_ documents for software developed and maintained by AuScope.
+
+Guideline documents below describe how research software should be structured, from a bunch of scripts to larger frameworks of research code.
+
+Contribution on these documents are welcome, from suggestions to significant modifications. Please make a Pull Request to 'main' via GitHub.
+
+
 
 Choose the software best practices you'd like to follow:
 
