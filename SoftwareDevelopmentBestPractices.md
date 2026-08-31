@@ -32,14 +32,14 @@ A [quick reference](SoftwareDevelopmentBestPracticesTable.md) summary table is a
       <summary>Examples</summary>
       GitHub, GitLab
       </details>
-   3. Obtain persistent identifiers versions of the software i.e. 1.3, 7.1.3.
+   3. Obtain persistent identifiers for each named version of the software such as releases.
 
 3. **Portability, configuration, and building**
    1. Ensure that the code builds on Unix-like machines (Linux, macOS) with only free tools.
-   2. Use a portable build system.
+   2. Use a well designed, portable build system.
       <details>
       <summary>Examples</summary>
-      cmake, make, pixi, etc.
+      cmake, make, autotools (Unix only), setup.py
       </details>
 
 4. **Testing**
@@ -53,7 +53,7 @@ A [quick reference](SoftwareDevelopmentBestPracticesTable.md) summary table is a
    4. Explain the physics the software simulates.
    5. Illustrate how to use the software to solve scientific problems with a few cookbook examples that have sample, editable input files.
    6. Provide documentation online or offline.
-   7. Include how to cite the software e.g. CITATION.cff.
+   7. Include how to cite the software (see also [Citable publication](#6-citable-publication) below).
 
 6. **Citable publication**
    1. Provide a citable publication.
@@ -72,7 +72,7 @@ A [quick reference](SoftwareDevelopmentBestPracticesTable.md) summary table is a
 *Practices in addition to the [Minimum Best Practices](#minimum-best-practices) above that should be used by all software developed within the AuScope community. Software not meeting all standards should be actively working to eliminate deficiencies.*
 
 1. **Version control**
-   1. Limit source tree to files necessary to build software, documentation, and run verification tests.
+   1. Limit source tree to files necessary to build software and documentation, and run verification tests.
    2. In each release, include release notes distinguishing between significant changes, new features and bugfixes.
       <details>
       <summary>Example</summary>
