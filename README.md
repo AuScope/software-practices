@@ -2,46 +2,72 @@
 <img src="images/auscope2025colour.png" width="25%"  >
 </p>
 
+# AuScope Software Best Practices
 
-# AuScope Software "Best Practices" Guidelines
+This repository helps AuScope research software be easier to find, use, cite, and maintain.
 
-This GitHub repository is a resource for _Best Practice_ documents for software developed and maintained by AuScope.
+It is aimed at two levels:
 
-Guideline documents below describe how research software should be structured, from a bunch of scripts to larger frameworks of research code.
+- New GitHub users publishing their first research code or model
+- Experienced maintainers of established software projects who want a durable best-practice baseline
 
-Contribution on these documents are welcome, from suggestions to significant modifications. Please make a Pull Request to 'main' via GitHub.
+## Start Here
 
+Choose the level that matches your project stage.
 
+### Level 1. First repository on GitHub
+Use this path if you are new to GitHub or are publishing a small research model for the first time.
 
-Choose the software best practices you'd like to follow:
+- [ ] Create a public repository.
+- [ ] Add a `README.md` that explains what the software does and how to run it.
+- [ ] Add an OSI-approved `LICENSE`.
+- [ ] Add a citation file such as `CITATION.cff` or a clear citation section in the README.
+- [ ] Add the code/scripts/files.
+- [ ] Tag a release when you publish a version.
+- [ ] Create a Zenodo DOI for the release if you want the software to be citable.
+- [ ] Ask someone else to read the repository as if they were a new user.
 
-  * [Minimum](./SoftwareDevelopmentBestPractices.md#minimum-best-practices)
-  * [Standard](./SoftwareDevelopmentBestPractices.md#standard-best-practices)
-  * [Target](./SoftwareDevelopmentBestPractices.md#target-best-practices)
+### Level 2. Established research software project
+Use this path if your project already has users, contributors, or regular releases.
 
+1. Keep installation and usage instructions up to date.
+2. Add tests that verify the software still runs correctly.
+3. Use continuous integration to run those tests automatically.
+4. Document release and versioning practices.
+5. Record dependencies, inputs, outputs, and known limitations.
+6. Keep the contribution process simple and visible.
 
-These Guidelines have been forked from the CIG's original Guidlines [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10855227.svg)](https://doi.org/10.5281/zenodo.10957179)
+## What Good Looks Like
+
+A strong research software repository usually has:
+
+- a clear purpose
+- an open license
+- installation or run instructions
+- tests or verification steps
+- a citation method
+- versioned releases
+- enough documentation for a new user to succeed
+
+## Repository Guide
+
+- [Contributing Software to AuScope](ContributingChecklist.md)
+- [Software Development Best Practices](SoftwareDevelopmentBestPractices.md)
+- [Quick reference table](SoftwareDevelopmentBestPracticesTable.md)
+- [Zenodo Best Practices](ZenodoBestPractices.md)
+- [Training Best Practices](TrainingBestPractices.md)
+
+## For Contributors
+
+Contribution on these documents are welcome, from suggestions to significant modifications. Please make a Pull Request to `main` via GitHub.
 
 ---
 
-<br>
+## Notes
 
-## Work In Progess Documents
+- These guidelines were forked from the CIG's original guidelines: [DOI](https://doi.org/10.5281/zenodo.10957179)
+- For release and DOI guidance, see [Zenodo Best Practices](ZenodoBestPractices.md)
 
-  The following resources are works in profess (WIP) and will support the Software Development Best Practices.
-
-  * [WIP - Contributing Software to AuScope Checklist](ContributingChecklist.md). - Does your project fulfill these requirements? 
-    <!-- Consider [contributing](https://www.auscope.org.au/software/software-contribute) your software to the AuScope community.  Questions? Need help? [Contact us](https://www.auscope.org.au/support/ticket/new). -->
-
-  * [WIP - Software Repository Template](https://github.com/auscope/software_template). - Fork this repository to your own account to begin following best practices at the start of your project.
-
-* [WIP - Training Best Practices](TrainingBestPractices.md) - Best practices for tutorials and hackathons for training users.
-
-* [WIP - Zenodo Best Practices](ZenodoBestPractices.md) - Best practices for obtaining a DOI from [Zenodo](https://zenodo.org/).
-
-<br>
-
----
 ## Acknowledgements
 
 We acknowledge these guidelines have been modified from,
