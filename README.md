@@ -4,12 +4,15 @@
 
 # AuScope Software Best Practices
 
-This repository helps AuScope research software be easier to find, use, cite, and maintain.
+This repository documents _best practices_ to make AuScope research software easier to find, use, cite, and maintain.
+
+The context here is broad - AuScope software is diverse and _best practices_ change in time.
+As such, these documents are suggestions for making the AuScope software more sustainable, not prescriptive rules. 
 
 It is aimed at two levels:
 
-- New GitHub users publishing their first research code or model
-- Experienced maintainers of established software projects who want a durable best-practice baseline
+- New GitHub users publishing their research code or model.
+- Experienced maintainers of software projects who want a durable best practice.
 
 Choose the level that matches your need.
 
@@ -52,7 +55,7 @@ A strong research software repository usually has:
 
 ## For Contributors
 
-Contribution on these documents are welcome, from suggestions to significant modifications. Please make a Pull Request to `main` via GitHub.
+Contribution on these documents are welcome, from suggestions to feedback. Please make and Issue or Pull Request to `main` via GitHub.
 
 ---
 
