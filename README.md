@@ -6,25 +6,24 @@
 
 This repository documents _best practices_ to make AuScope research software easier to find, use, cite, and maintain.
 
-The context here is broad - AuScope software is diverse and _best practices_ change in time.
-These documents are suggestions for making AuScope software more sustainable - not prescriptive rules.
+The context here is broad - AuScope software is diverse and _best practices_ change in time. \
+These documents are suggestions for making a research software project more sustainable - not prescriptive rules to apply.
 
-#### In general _best practice_ looks like
+#### In general _best practice_ for research software follow:
 
-A strong research software project usually has:
-
+```
 - a clear purpose and license
 - installation or run instructions
 - versioned releases
 - tests or verification steps
 - a citation method
-- enough documentation for a users to feel welcome and informed.
+- enough documentation for a users to feel welcome and informed
+```
 
+This documentation is split into two levels:
 
-This documentation is aimed at two levels:
-
-- New GitHub users publishing their research code or model.
-- Maintainers of software projects who want more thorough best practices.
+1) New GitHub users publishing their research code or model
+2) Maintainers of software projects who want more thorough best practices.
 
 Choose the level that matches your need.
 
@@ -52,20 +51,15 @@ Use this [checklist](SoftwareDevelopmentBestPractices.md) to consider more compr
 - [Quick reference table](SoftwareDevelopmentBestPracticesTable.md)
 - [WIP - Zenodo Best Practices](ZenodoBestPractices.md)
 
-## For Contributors
+## Feedback
 
 Contribution on these documents are welcome, from suggestions to feedback. Please make and Issue or Pull Request to `main` via GitHub.
 
 ---
 
-## Notes
-
-- These guidelines were forked from the CIG's original guidelines: [DOI](https://doi.org/10.5281/zenodo.10957179)
-- For release and DOI guidance, see [Zenodo Best Practices](ZenodoBestPractices.md)
-
 ## Acknowledgements
 
-We acknowledge these guidelines have been modified from,
+These guidelines were forked from the CIG's original guidelines: [DOI](https://doi.org/10.5281/zenodo.10957179)
 
 **Computational Infrastructure for Geodynamics, Aagaard, B., Bangerth, W., Brown, J., Hwang, L., Kellogg, L., Tape, C., Fraters, M., & Rene, G. (2024). Software Development Best Practices for the CIG Community. Zenodo. https://doi.org/10.5281/zenodo.10957179**
 
