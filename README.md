@@ -20,9 +20,9 @@ These documents are suggestions for making a research software project more sust
 - enough documentation for a users to feel welcome and informed
 ```
 
-This documentation is split into two levels:
+This documentation is split into two levels of audience:
 
-1) New GitHub users publishing their research code or model
+1) GitHub users publishing their research code or model
 2) Maintainers of software projects who want more thorough best practices.
 
 Choose the level that matches your need.
@@ -34,12 +34,12 @@ Use this checklist if you are new to GitHub or are publishing a small research m
 
 - [ ] Create a public repository.
 - [ ] Add a `README.md` that explains what the software does and how to run it.
-- [ ] Add an OSI-approved `LICENSE`.
+- [ ] Add an OSI-approved `[LICENSE](https://opensource.org/licenses)`.
 - [ ] Add a citation file such as `CITATION.cff` or a clear citation section in the README.
 - [ ] Add the code/scripts/files.
 - [ ] Tag a release when you publish a version.
 - [ ] Create a Zenodo DOI for the release if you want the software to be citable.
-- [ ] Ask someone else to read the repository as if they were a new user.
+- [ ] Ask someone else to read the repository as if they were a new user and please give feedback.
 
 ### Level 2: Established research software project
 Use this [checklist](SoftwareDevelopmentBestPractices.md) to consider more comprehensive steps your software could take to be more sustainable. 
@@ -51,19 +51,26 @@ Use this [checklist](SoftwareDevelopmentBestPractices.md) to consider more compr
 - [Quick reference table](SoftwareDevelopmentBestPracticesTable.md)
 - [WIP - Zenodo Best Practices](ZenodoBestPractices.md)
 
+
 ## Feedback
 
-Contribution on these documents are welcome, from suggestions to feedback. Please make and Issue or Pull Request to `main` via GitHub.
+Your contribution on these documents are welcome, from suggestions to feedback. Please make an Issue or Pull Request to `main` via GitHub.
 
 ---
 
 ## Acknowledgements
 
-These guidelines were forked from the CIG's original guidelines: [DOI](https://doi.org/10.5281/zenodo.10957179)
+These guidelines were forked from the CIG's original guidelines:
 
 **Computational Infrastructure for Geodynamics, Aagaard, B., Bangerth, W., Brown, J., Hwang, L., Kellogg, L., Tape, C., Fraters, M., & Rene, G. (2024). Software Development Best Practices for the CIG Community. Zenodo. https://doi.org/10.5281/zenodo.10957179**
 
 We thank the above authors for making their work public and open.
+
+### Additional resources:
+
+- [FAIR Principles](https://doi.org/10.15497/RDA00068) for Research Software (FAIR4RS Principles)
+
+- Software Citation [Checklist](https://zenodo.org/records/3482769) for Developers
 
 ---
 
