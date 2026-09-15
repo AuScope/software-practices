@@ -7,12 +7,24 @@
 This repository documents _best practices_ to make AuScope research software easier to find, use, cite, and maintain.
 
 The context here is broad - AuScope software is diverse and _best practices_ change in time.
-As such, these documents are suggestions for making the AuScope software more sustainable, not prescriptive rules. 
+These documents are suggestions for making AuScope software more sustainable - not prescriptive rules.
 
-It is aimed at two levels:
+#### In general _best practice_ looks like
+
+A strong research software project usually has:
+
+- a clear purpose and license
+- installation or run instructions
+- versioned releases
+- tests or verification steps
+- a citation method
+- enough documentation for a users to feel welcome and informed.
+
+
+This documentation is aimed at two levels:
 
 - New GitHub users publishing their research code or model.
-- Experienced maintainers of software projects who want a durable best practice.
+- Maintainers of software projects who want more thorough best practices.
 
 Choose the level that matches your need.
 
@@ -31,27 +43,14 @@ Use this checklist if you are new to GitHub or are publishing a small research m
 - [ ] Ask someone else to read the repository as if they were a new user.
 
 ### Level 2: Established research software project
-Use this [checklist](SoftwareDevelopmentBestPractices.md) if your project already has users, contributors, or regular releases. 
-
-## What _Best Practice_ Looks Like
-
-A strong research software repository usually has:
-
-- a clear purpose
-- an open license
-- installation or run instructions
-- tests or verification steps
-- a citation method
-- versioned releases
-- enough documentation for a new user to feel welcome and informed.
+Use this [checklist](SoftwareDevelopmentBestPractices.md) to consider more comprehensive steps your software could take to be more sustainable. 
 
 ## Repository Guide - WIP
 
 - [Contributing Software to AuScope](ContributingChecklist.md)
 - [Software Development Best Practices](SoftwareDevelopmentBestPractices.md)
 - [Quick reference table](SoftwareDevelopmentBestPracticesTable.md)
-- [Zenodo Best Practices](ZenodoBestPractices.md)
-- [Training Best Practices](TrainingBestPractices.md)
+- [WIP - Zenodo Best Practices](ZenodoBestPractices.md)
 
 ## For Contributors
 
